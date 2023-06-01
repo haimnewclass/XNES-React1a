@@ -4,6 +4,8 @@ import  Car from './Car';
 import House from './House';
 import InputSample from './InputSample';
 import PropsSample from './PropsSample'
+import Dots from './Dots';
+import MapSample from './MapSample';
 
 function App() {
 
@@ -18,6 +20,11 @@ function App() {
   let b = 13;
   return (
     <div className="App">
+
+<MapSample/>
+
+<Dots></Dots>
+
     hi 1 {a+b}
 <InputSample />
 <hr/>
