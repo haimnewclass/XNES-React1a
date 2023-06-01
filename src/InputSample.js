@@ -9,7 +9,7 @@ function InputSample()
         <input value={val} onChange={(event)=>{
             setVal(event.target.value);
             
-            console.log(event.target.value);
+            console.log(val);
         }} />
     </div>)
 }
